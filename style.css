@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #080611;
+    color: white;
+}
+
+header {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    background-color: #100a20;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #e8c875;
+    color: #080611;
+    width: 250px;
+    border: 1px solid #e8c875;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    height: 500px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: absolute;
+    top: 180px;
+    width: 100%;
+}
+
+.hero-content h1 {
+    color: white;
+}
+
+.hero-content h1 span {
+    color: #e8c875;
+}
+.hero-description {
+    color: #d3cedc;
+    font-size: 1.05rem;
+}
+.small-title {
+    color: #e8c875;
+    font-size: 1rem;
+}
+
+.zodiac-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #080611;
+}
+.section-intro {
+    max-width: 650px;
+    color: #aaa4b5;
+    margin:auto;
+}
+/* 4 kort på varje rad */
+.zodiac-card {
+    display: inline-block;
+    vertical-align: top;
+
+    width: 20%;
+    min-height: 200px;
+
+    margin: 1%;
+    padding: 20px;
+
+    background-color: #17102b;
+    color: white;
+
+    border: 1px solid #e8c875;
+    border-radius: 10px;
+}
+/* Klickbar del */
+.zodiac-card summary {
+    list-style: none;
+}
+/* Symbol */
+.zodiac-symbol {
+    display: block;
+    font-size: 36px;   
+    margin-bottom: 10px;
+}
+/* Klicka för att läsa mer */
+.read-more {
+    display: block;
+    margin-top: 15px;
+    color: #e8c875;
+}
+/* Text som visas efter klick */
+.sign-description {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #e8c875;
+}
+
+.information {
+    padding: 50px;
+    background-color: #100a20;
+}
+.information-image,
+.information-text {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+}
+.information-image img {
+    width: 100%;
+    height:300px;
+}
+.information-text h2 {
+    color: #e8c875;
+}
+
+.daily-horoscope {
+    padding: 50px;
+    background-color: #080611;
+}
+.daily-text,
+.daily-image {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+}
+.daily-image img {
+    width: 100%;
+    height:300px;
+}
+.daily-text h2 {
+    color: #e8c875;
+}
+
+.about {
+    padding: 50px;
+    text-align: center;
+    background-color: #100a20;
+}
+.about h2 {
+    color: #e8c875;
+}
+
+
+/* FOOTER */
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color: #040309;
+    color: white;
+}
+
+.footer-logo {
+    color: #e8c875;
+}
+
+
