@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakta oss | AM Zodiac</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Startsida</a></li>
+                    <li><a href="index.html#information">Information</a></li>
+                    <li><a href="index.html#about">Om oss</a></li>
+                    <li><a href="contact.html">Kontakta oss</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+                <!-- Vänster sida -->
+                <aside class="contact-info">
+                    <div class="contact-text">
+                    <p class="small-title">KONTAKTA OSS</p>
+                    <h1>
+                        Kontakta
+                        <span>AM Zodiac</span>
+                    </h1>
+                    <p>
+                        Vill du veta mer om ditt stjärntecken
+                        eller ditt dagliga horoskop?
+                        Skicka ett meddelande till oss och
+                        välj ditt stjärntecken i formuläret.
+                    </p>
+                    </div>
+                </aside>
+
+                <form class="contact-form-container">
+                        <div class="form-group">
+                            <label for="name">Namn *</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Skriv ditt namn"
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-post *</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="exempel@email.se"
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="zodiac">Ditt stjärntecken *</label>
+                            <select id="zodiac" name="zodiac" required>
+                                <option value="">
+                                    Välj ditt stjärntecken
+                                </option>
+
+                                <option value="vaduren">♈ Väduren</option>
+
+                                <option value="oxen">♉ Oxen</option>
+
+                                <option value="tvillingarna">♊ Tvillingarna</option>
+
+                                <option value="kraftan">♋ Kräftan</option>
+
+                                <option value="lejonet">♌ Lejonet</option>
+
+                                <option value="jungfrun">♍ Jungfrun</option>
+
+                                <option value="vagen">♎ Vågen</option>
+
+                                <option value="skorpionen">♏ Skorpionen</option>
+
+                                <option value="skytten">♐ Skytten</option>
+
+                                <option value="stenbocken">♑ Stenbocken</option>
+
+                                <option value="vattumannen">♒ Vattumannen</option>
+
+                                <option value="fiskarna">♓ Fiskarna</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Ämne *</label>
+                            <span class="radio-opt">
+                            <input type="radio" id="horoskop" name="subject" value="horoskop">
+                            <label for="horoskop">Dagligt horoskop</label>
+                            </span>
+                            <span class="radio-opt">
+                            <input type="radio" id="stjärntecken" name="subject" value="tjärntecken">
+                            <label for="stjärntecken">Stjärntecken</label>
+                            </span>
+                            <span class="radio-opt">
+                            <input type="radio" id="övrigt" name="subject" value="övrigt">
+                            <label for="övrigt">Övrigt </label>
+                            </span>          
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" id="mes">Meddelande </label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="6"
+                                placeholder="Skriv ditt meddelande här...">
+                            </textarea>
+                        </div>
+
+                        <button type="submit" class="button">Skicka meddelande ✦</button>
+                    </form>
+        </section>
+    </main>
+    <footer>
+            <div>
+                <p class="footer-logo">AM Zodiac</p>
+                <p> &copy; 2026 AM Zodiac. Alla rättigheter förbehållna.</p>
+            </div>
+    </footer>
+</body>
+</html>

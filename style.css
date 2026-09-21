@@ -183,4 +183,78 @@ footer {
     color: #e8c875;
 }
 
+/* KONTAKTSIDA */
+.contact-section {
+    padding: 30px;
+    text-align: center;
+    background-color: #080611;
+}
+.contact-info,
+.contact-form-container {
+    display: inline-block;
+    vertical-align: middle;
+    width:45%;
+}
+.contact-info{
+    text-align: left;
+    display:inline-block;
+    vertical-align: middle;
+    width: 45%;
+    height: 500px;
+}
 
+.contact-info h1 {
+    color: white;
+    margin-bottom: 15px;
+}
+.contact-info h1 span {
+    color: #e8c875;
+}
+.contact-info p {
+    color: #aaa4b5;
+}
+.contact-text {
+    margin-top: 180px;
+    padding: 20px;
+}
+
+.contact-form-container{
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #e8c875;
+    background-color: #100a20;
+}
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: inline-block;
+    width:160px;
+    margin-bottom: 5px;
+    color: #e8c875;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #e8c875;
+    width: 250px;
+}
+.radio-opt{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#mes{
+    display:inline-block;
+    width:160px;
+    vertical-align:top;
+}
+.form-group textarea{
+    display:inline-block;
+    width:250px;
+    vertical-align: top;
+}
