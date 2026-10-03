@@ -15,9 +15,18 @@
     .daily-horoscope {
         padding: 30px;
     }
-     /* Kontaktsida */
 
+    /* Kontaktsida */
+    .contact-container {
+        display: block;
+        padding: 30px;
+    }
+    .contact-info,
+    .contact-form-container {
+        width: 100%;
+    }
 }
+
 /* Mobile */
 @media (max-width: 600px) {
 
@@ -47,19 +56,19 @@
         grid-template-columns: 1fr;
     }
     .button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
-    .information ,
-    .daily-horoscope{
+    .information,
+    .daily-horoscope {
         padding: 30px 20px;
     }
-    .information-container ,
+    .information-container,
     .daily-container {
         display: block;
     }
-    .information-text ,
+    .information-text,
     .daily-text {
         width: 100%;
     }
@@ -73,6 +82,40 @@
     }
 
     /* Kontaktsida */
-
-
+    .contact-container {
+        display: block;
+        padding: 30px 20px;
+    }
+    .contact-info,
+    .contact-form-container {
+        width: 100%;
+    }
+    .form-group {
+        display: block;
+        margin: 20px 0;
+    }
+    .form-group label {
+        display: block;
+        width: 100%;
+    }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        width: 100%;
+    }
+    /* Placera radioknappar bredvid texten*/
+    .radio-opt {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .radio-opt input {
+        width: auto;
+    }
+    .radio-opt label {
+        display: inline-block;
+        width: auto;
+        margin-bottom: 0;
+    }
 }
