@@ -63,10 +63,7 @@ nav a:hover {
 .hero-content h1 span {
     color: #e8c875;
 }
-.hero-description {
-    color: #f2f2f2;
-    font-size: 1.05rem;
-}
+
 .small-title {
     color:  #aaa4b5;
     font-size: 1rem;
@@ -79,7 +76,6 @@ nav a:hover {
 }
 .section-intro {
     max-width: 650px;
-    color: white;
     margin:auto;
     margin-bottom: 20px;
 }
@@ -94,7 +90,7 @@ nav a:hover {
     min-height: 150px;
     padding: 20px;
     background-color: #17102b;
-    color: white;
+    /* color: white; */
     border: 1px solid #e8c875;
     border-radius: 10px;
     cursor: pointer;
@@ -163,7 +159,6 @@ footer {
     padding: 30px;
     text-align: center;
     background-color: #040309;
-    color: white;
 }
 .footer-logo {
     color: #e8c875;
